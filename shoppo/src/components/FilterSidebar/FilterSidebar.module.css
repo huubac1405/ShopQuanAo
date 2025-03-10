@@ -1,0 +1,61 @@
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    background: #f8f8f8;
+  }
+  
+  h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 0 10px;
+    color: rgb(172, 32, 207);
+  }
+  
+  .colors {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .colorItem {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .sizes {
+    display: flex;
+    gap: 10px;
+  }
+  .colorItem:hover {
+    background-color: #ddd;
+  }
+  .selected {
+    border-color: black;
+    background-color: #bbb;
+    color: white;
+    font-weight: bold;
+  }
+  .applyButton {
+    font-size: large;
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

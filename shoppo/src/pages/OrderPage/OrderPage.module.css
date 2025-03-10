@@ -1,0 +1,150 @@
+.orderPage {
+    display: flex;
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  /* CSS cho phần danh sách sản phẩm */
+  .productList {
+    flex: 1;
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+    font-size: 12px;
+  }
+  
+  .productList h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .productItem {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .productImage {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .productDetails {
+    flex: 1;
+  }
+  
+  .productDetails h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .price {
+    margin: 5px 0;
+  }
+  
+  .originalPrice {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 5px;
+  }
+  
+  .removeButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  /* CSS cho phần thông tin giao hàng */
+  .shippingInfo {
+    flex: 1;
+    padding: 0 20px;
+    font-size: 12px;
+  }
+  
+  .shippingInfo h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formGroup input,
+  .formGroup select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* CSS cho phần tạm tính và thanh toán */
+  .orderSummaryRight {
+    width: 300px;
+    padding-left: 20px;
+    font-size: 12px;
+  }
+  
+  .summarySection,
+  .discountSection,
+  .paymentSection {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .summarySection h2,
+  .discountSection h2,
+  .paymentSection h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .discountSection input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .discountSection button {
+    height: 36px;
+    width: 90px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .paymentSection label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .placeOrder {
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .orderNote {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+  }

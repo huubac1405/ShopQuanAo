@@ -1,0 +1,128 @@
+.product-detail {
+    display: flex;
+    align-items: flex-start; /* Căn mọi thứ về cùng hàng */
+    gap: 30px; /* Khoảng cách giữa ảnh và thông tin */
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa ảnh */
+  }
+  
+  .thumbnail-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .thumbnail-list img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+  }
+  
+  .thumbnail-list img.active {
+    border: 2px solid red;
+  }
+  
+  .main-image {
+    width: 400px; /* Giữ ảnh to đúng kích thước */
+    height: auto;
+  }
+  
+  .product-info {
+    flex: 1; /* Mở rộng phần thông tin sản phẩm */
+    max-width: 500px; /* Giữ phần thông tin không quá rộng */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Khoảng cách giữa các phần */
+  }
+  
+  .price {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 10px;
+  }
+  
+  .discount {
+    color: green;
+    margin-left: 10px;
+  }
+  
+  .options {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .color-options, .size-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .color-options button, .size-options button {
+    padding: 5px 15px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .color-options button.active, .size-options button.active {
+    background: black;
+    color: white;
+  }
+  
+  .quantity-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .quantity-selector button {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .add-to-cart {
+    background: orange;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .buy-now {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

@@ -1,0 +1,29 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Giúp tránh việc phần tử vượt quá kích thước mong muốn */
+}
+
+body {
+  overflow-x: hidden; /* Ẩn thanh cuộn ngang nếu có */
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+html{
+  font-size: 62.5%;
+}

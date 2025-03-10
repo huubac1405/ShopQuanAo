@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start; /* Căn các phần tử về phía trên */
+  }
+  
+  .sidebar {
+    width: 300px; /* Tăng kích thước sidebar */
+    flex-shrink: 0;
+  }
+  
+  .content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .productList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Hiển thị nhiều sản phẩm hơn */
+    gap: 15px;
+  }
+  
